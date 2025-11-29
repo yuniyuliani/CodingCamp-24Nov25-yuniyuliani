@@ -1,0 +1,65 @@
+body {
+  min-height: 100vh;
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(10px);
+  padding: 35px;
+  width: 370px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(33, 33, 86);
+}
+
+form {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+form input,
+form button {
+  padding: 8px;
+  font-size: 14px;
+}
+
+#filter {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  background: #e8e8e8;
+  padding: 10px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+button.deleteBtn {
+  background: red;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}

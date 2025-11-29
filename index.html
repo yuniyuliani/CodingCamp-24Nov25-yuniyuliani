@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- header section -->
+      <header>
+        <h1 class="text-2xl font-semibold">To-do List</h1>
+      </header>
+
+      <!-- Main content -->
+      <main>
+        <form id="todoForm">
+          <input
+            type="text"
+            id="taskInput"
+            placeholder="Add a todo . . ."
+            required
+          />
+          <input type="date" id="dateInput" required />
+          <button type="submit">Add</button>
+        </form>
+
+        <!-- Filter -->
+        <select id="filter">
+          <option value="all">All</option>
+          <option value="today">Today</option>
+          <option value="upcoming">Upcoming</option>
+        </select>
+
+        <!-- Display List -->
+        <ul id="todoList"></ul>
+      </main>
+      <!-- Footer Section -->
+      <footer>
+        <p>&copy; Made with 💖 by <a href="">Yuni Yuliani</a></p>
+      </footer>
+    </div>
+
+    <!-- Javascript External -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
